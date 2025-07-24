@@ -1,3 +1,13 @@
+
+.inter-font {
+  font-family: "Inter" ,sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
 /* Shared Style */
 .ash{
     color:rgba(137, 135, 161, 1)
@@ -5,6 +15,7 @@
 .black{
     color: black;
 }
+
 /* header */
 .cart{
     display: flex ;
@@ -27,30 +38,103 @@
     align-items: center;
     margin: 30px 150px;
 }
+/* Fresh */
+.head{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top:90px;
+    margin-bottom: px ;
+}
+.head h1 {
+  margin: 0;
+}
+.fresh-sub p{
+    /* margin: 0; */
+}
+.fresh-sub{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 100;
+    margin-top:10px;
+}
+.fresh-part{
+    display: flex;
+    gap: 110px;
+}
+.fresh{
+    margin: 130px 150px;
+}
 /* Responsive */
-@media screen and (max-width:576px) {
-    .fl{
-        margin: 13px 16px;
-        gap: 185px;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .nav {
-    justify-content: flex-end;
-    gap: 0;
-    width: 100%;
-    font-size: 25px;
-    margin-top: 23px;
+@media screen and (max-width: 576px) {
+   body {
+    overflow-x: hidden;
   }
-  .cart-img{
-    height: 25px;
-    width: 17px;
+  .fl {
+    margin: 13px 16px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+  }
+  .nav {
+    /* justify-content: flex-end;
+    gap: 0;
+    flex-wrap: wrap;
+    width: auto;
+    font-size: 20px;
+    margin-top: 23px;
+     */
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+  .cart-img {
+    height: 20px;
+    width: 15px;
+  }
+  .logo {
+    height: 45px;
+    width: auto;
 }
-.logo{
-    height: 63px;
-    width:px;
-}
-.none{
-        display: none;
-    }
+  .none {
+    display: none;
+  }
+  .fresh {
+    /* margin: 40px 20px; */
+    margin: 0;
+    padding: 0;
+  }
+.fresh-part {
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .head {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 13px;
+    padding: 10px;
+  }
+  .fresh-sub {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .fresh-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    /* margin-bottom: 15px; */
+  }
+  .fresh-img img {
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
+    display: block;
+    /* object-fit: cover; */
+  }
 }
