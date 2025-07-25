@@ -56,13 +56,11 @@
 .head h1 {
   margin: 0;
 }
-.fresh-sub p{
-    /* margin: 0; */
-}
+
 .fresh-sub{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     margin-top:10px;
 }
 .fresh-part{
@@ -81,10 +79,6 @@
     text-align: center;
     margin-bottom: 16px;
 }
-.plants-sub{
-    /* font-size: 40px;
-    font-weight: 100; */
-}
 .head-plant h2{
     margin: 0;
 }
@@ -94,7 +88,7 @@
 .plant-sub{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
     padding: 0 126px;
     margin: 0;
@@ -193,7 +187,7 @@
 .deal-title{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
     padding: 0 126px;
     margin: 0;
